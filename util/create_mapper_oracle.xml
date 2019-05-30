@@ -11,7 +11,7 @@
             <property name="suppressAllComments" value="true"/>  
         </commentGenerator>  
         <!--数据库链接URL，用户名、密码 -->  
-        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:ORCL" 
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@172.20.0.95:1521:ORCLDB" 
 		userId="scott" password="tiger">
         </jdbcConnection>
         <javaTypeResolver>  
@@ -35,9 +35,9 @@
 		domainObjectName是实体类名
 		-->  
 		<!--表1-->
-        <table tableName="t_stock_order" domainObjectName="T_stock_order" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="EMP2" domainObjectName="EMP2" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 		
 
-		<table tableName="t_stockorder_detail" domainObjectName="T_stockorder_detail" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+		
     </context>  
 </generatorConfiguration>  
